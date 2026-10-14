@@ -1,0 +1,10 @@
+{
+  "study_id": "brca_metabric",
+  "sample_list_samples": 2509,
+  "mutation_records_returned": 13183,
+  "normalized_event_rows": 13181,
+  "patients_with_mutation_rows": 2358,
+  "samples_with_mutation_rows": 2358,
+  "genes_with_mutation_rows": 173,
+  "temporal_validity": "cross-sectional; not a forecasting cohort"
+}

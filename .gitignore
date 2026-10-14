@@ -1,0 +1,43 @@
+﻿# Python virtual environments
+.venv/
+.venv-demo/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Real dataset files (keep source manifest and placeholders)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated figures and models
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/models/
+outputs/synthetic_demo/models/
+outputs/synthetic_demo/predictions/
+
+# Keep small, reproducible metrics
+outputs/metrics/*
+!outputs/metrics/.gitkeep
+!outputs/metrics/dataset_summary.json
+outputs/predictions/*
+!outputs/predictions/.gitkeep

@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "split": "single GroupShuffleSplit, 25% held-out patients",
+  "train_patients": [
+    "DEMO-P003",
+    "DEMO-P004",
+    "DEMO-P005",
+    "DEMO-P006",
+    "DEMO-P007",
+    "DEMO-P008",
+    "DEMO-P010",
+    "DEMO-P011",
+    "DEMO-P012",
+    "DEMO-P013",
+    "DEMO-P014",
+    "DEMO-P015",
+    "DEMO-P017",
+    "DEMO-P019",
+    "DEMO-P020"
+  ],
+  "test_patients": [
+    "DEMO-P001",
+    "DEMO-P002",
+    "DEMO-P009",
+    "DEMO-P016",
+    "DEMO-P018"
+  ],
+  "train_transitions": 45,
+  "test_transitions": 15,
+  "genes": [
+    "TP53",
+    "KRAS",
+    "EGFR",
+    "PIK3CA",
+    "APC",
+    "BRCA1",
+    "BRAF",
+    "PTEN"
+  ],
+  "target": "gene binary status at next observed sample",
+  "caveat": "Interpret as alteration-state forecasting only when assay coverage and time order are verified."
+}

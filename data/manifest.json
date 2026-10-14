@@ -1,0 +1,33 @@
+{
+  "study_id": "brca_metabric",
+  "study_name": "Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016)",
+  "publications": [
+    {
+      "citation": "Curtis et al., Nature 2012, 486:346-352",
+      "doi": "10.1038/nature10983"
+    },
+    {
+      "citation": "Pereira et al., Nature Communications 2016, 7:11479",
+      "doi": "10.1038/ncomms11479"
+    }
+  ],
+  "source_url": "https://www.cbioportal.org/study/summary?id=brca_metabric",
+  "api_documentation": "https://docs.cbioportal.org/web-api-and-clients/",
+  "api_base": "https://www.cbioportal.org/api",
+  "accessed": "2026-10-11",
+  "raw_files": [
+    "raw\\brca_metabric_samples.json.gz",
+    "raw\\brca_metabric_mutations.json.gz"
+  ],
+  "processed_file": "processed\\brca_metabric_mutations.csv",
+  "figure_files": [
+    "outputs/figures/metabric_gene_frequency.html",
+    "outputs/figures/metabric_mutation_class.html"
+  ],
+  "temporal_validity": "Cross-sectional study. No temporal order is inferred.",
+  "sample_count": 2509,
+  "mutation_record_count": 13183,
+  "processed_event_count": 13181,
+  "unmatched_mutation_samples": 0,
+  "data_use": "Respect cBioPortal and study attribution; consult the study publication and portal terms before redistribution."
+}

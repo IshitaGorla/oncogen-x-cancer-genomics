@@ -1,0 +1,73 @@
+patient_id,cancer_type,timepoint,gene,alteration,alteration_type,genomic_status,data_source
+PX-001,Lung Adenocarcinoma,T1,TP53,p.R175H,Missense,Acquired,Synthetic Demonstration Data
+PX-001,Lung Adenocarcinoma,T1,EGFR,p.L858R,Missense,Persistent,Synthetic Demonstration Data
+PX-001,Lung Adenocarcinoma,T2,TP53,p.R175H,Missense,Persistent,Synthetic Demonstration Data
+PX-001,Lung Adenocarcinoma,T2,EGFR,p.L858R,Missense,Persistent,Synthetic Demonstration Data
+PX-001,Lung Adenocarcinoma,T2,MET,Amplification,CNV,Acquired,Synthetic Demonstration Data
+PX-001,Lung Adenocarcinoma,T3,TP53,p.R175H,Missense,Persistent,Synthetic Demonstration Data
+PX-001,Lung Adenocarcinoma,T3,EGFR,p.L858R,Missense,Persistent,Synthetic Demonstration Data
+PX-001,Lung Adenocarcinoma,T3,MET,Amplification,CNV,Persistent,Synthetic Demonstration Data
+PX-002,Colorectal Cancer,T1,APC,p.R1450*,Nonsense,Acquired,Synthetic Demonstration Data
+PX-002,Colorectal Cancer,T1,KRAS,p.G12D,Missense,Acquired,Synthetic Demonstration Data
+PX-002,Colorectal Cancer,T2,APC,p.R1450*,Nonsense,Persistent,Synthetic Demonstration Data
+PX-002,Colorectal Cancer,T2,KRAS,p.G12D,Missense,Persistent,Synthetic Demonstration Data
+PX-002,Colorectal Cancer,T2,PIK3CA,p.E545K,Missense,Acquired,Synthetic Demonstration Data
+PX-002,Colorectal Cancer,T3,APC,p.R1450*,Nonsense,Persistent,Synthetic Demonstration Data
+PX-002,Colorectal Cancer,T3,KRAS,p.G12D,Missense,Persistent,Synthetic Demonstration Data
+PX-002,Colorectal Cancer,T3,PIK3CA,p.E545K,Missense,Persistent,Synthetic Demonstration Data
+PX-003,Breast Cancer,T1,BRCA1,p.185delAG,Frameshift,Acquired,Synthetic Demonstration Data
+PX-003,Breast Cancer,T1,PIK3CA,p.H1047R,Missense,Acquired,Synthetic Demonstration Data
+PX-003,Breast Cancer,T2,BRCA1,p.185delAG,Frameshift,Persistent,Synthetic Demonstration Data
+PX-003,Breast Cancer,T2,PIK3CA,p.H1047R,Missense,Persistent,Synthetic Demonstration Data
+PX-003,Breast Cancer,T2,ERBB2,Amplification,CNV,Acquired,Synthetic Demonstration Data
+PX-003,Breast Cancer,T3,BRCA1,p.185delAG,Frameshift,Persistent,Synthetic Demonstration Data
+PX-003,Breast Cancer,T3,ERBB2,Amplification,CNV,Persistent,Synthetic Demonstration Data
+PX-004,Melanoma,T1,BRAF,p.V600E,Missense,Acquired,Synthetic Demonstration Data
+PX-004,Melanoma,T1,PTEN,Deletion,Deletion,Acquired,Synthetic Demonstration Data
+PX-004,Melanoma,T2,BRAF,p.V600E,Missense,Persistent,Synthetic Demonstration Data
+PX-004,Melanoma,T2,PTEN,Deletion,Deletion,Persistent,Synthetic Demonstration Data
+PX-004,Melanoma,T2,CDKN2A,Deletion,Deletion,Acquired,Synthetic Demonstration Data
+PX-004,Melanoma,T3,BRAF,p.V600E,Missense,Persistent,Synthetic Demonstration Data
+PX-004,Melanoma,T3,CDKN2A,Deletion,Deletion,Persistent,Synthetic Demonstration Data
+PX-005,Glioblastoma,T1,IDH1,p.R132H,Missense,Acquired,Synthetic Demonstration Data
+PX-005,Glioblastoma,T1,TP53,p.R248Q,Missense,Acquired,Synthetic Demonstration Data
+PX-005,Glioblastoma,T2,IDH1,p.R132H,Missense,Persistent,Synthetic Demonstration Data
+PX-005,Glioblastoma,T2,TP53,p.R248Q,Missense,Persistent,Synthetic Demonstration Data
+PX-005,Glioblastoma,T2,RB1,Deletion,Deletion,Acquired,Synthetic Demonstration Data
+PX-005,Glioblastoma,T3,IDH1,p.R132H,Missense,Persistent,Synthetic Demonstration Data
+PX-005,Glioblastoma,T3,RB1,Deletion,Deletion,Persistent,Synthetic Demonstration Data
+PX-006,Ovarian Cancer,T1,BRCA2,p.S1982fs,Frameshift,Acquired,Synthetic Demonstration Data
+PX-006,Ovarian Cancer,T1,TP53,p.Y220C,Missense,Acquired,Synthetic Demonstration Data
+PX-006,Ovarian Cancer,T2,BRCA2,p.S1982fs,Frameshift,Persistent,Synthetic Demonstration Data
+PX-006,Ovarian Cancer,T2,TP53,p.Y220C,Missense,Persistent,Synthetic Demonstration Data
+PX-006,Ovarian Cancer,T2,PIK3CA,p.E542K,Missense,Acquired,Synthetic Demonstration Data
+PX-006,Ovarian Cancer,T3,BRCA2,p.S1982fs,Frameshift,Persistent,Synthetic Demonstration Data
+PX-006,Ovarian Cancer,T3,PIK3CA,p.E542K,Missense,Persistent,Synthetic Demonstration Data
+PX-007,Pancreatic Cancer,T1,KRAS,p.G12V,Missense,Acquired,Synthetic Demonstration Data
+PX-007,Pancreatic Cancer,T1,TP53,p.R273H,Missense,Acquired,Synthetic Demonstration Data
+PX-007,Pancreatic Cancer,T2,KRAS,p.G12V,Missense,Persistent,Synthetic Demonstration Data
+PX-007,Pancreatic Cancer,T2,TP53,p.R273H,Missense,Persistent,Synthetic Demonstration Data
+PX-007,Pancreatic Cancer,T2,CDKN2A,Deletion,Deletion,Acquired,Synthetic Demonstration Data
+PX-007,Pancreatic Cancer,T3,KRAS,p.G12V,Missense,Persistent,Synthetic Demonstration Data
+PX-007,Pancreatic Cancer,T3,CDKN2A,Deletion,Deletion,Persistent,Synthetic Demonstration Data
+PX-008,Lung Adenocarcinoma,T1,ALK,EML4-ALK Fusion,Fusion,Acquired,Synthetic Demonstration Data
+PX-008,Lung Adenocarcinoma,T1,TP53,p.R282W,Missense,Acquired,Synthetic Demonstration Data
+PX-008,Lung Adenocarcinoma,T2,ALK,EML4-ALK Fusion,Fusion,Persistent,Synthetic Demonstration Data
+PX-008,Lung Adenocarcinoma,T2,TP53,p.R282W,Missense,Persistent,Synthetic Demonstration Data
+PX-008,Lung Adenocarcinoma,T2,KRAS,p.G12C,Missense,Acquired,Synthetic Demonstration Data
+PX-008,Lung Adenocarcinoma,T3,ALK,EML4-ALK Fusion,Fusion,Persistent,Synthetic Demonstration Data
+PX-008,Lung Adenocarcinoma,T3,KRAS,p.G12C,Missense,Persistent,Synthetic Demonstration Data
+PX-009,Thyroid Cancer,T1,NRAS,p.Q61R,Missense,Acquired,Synthetic Demonstration Data
+PX-009,Thyroid Cancer,T1,PTEN,p.R130*,Nonsense,Acquired,Synthetic Demonstration Data
+PX-009,Thyroid Cancer,T2,NRAS,p.Q61R,Missense,Persistent,Synthetic Demonstration Data
+PX-009,Thyroid Cancer,T2,PTEN,p.R130*,Nonsense,Persistent,Synthetic Demonstration Data
+PX-009,Thyroid Cancer,T2,PIK3CA,p.E545K,Missense,Acquired,Synthetic Demonstration Data
+PX-009,Thyroid Cancer,T3,NRAS,p.Q61R,Missense,Persistent,Synthetic Demonstration Data
+PX-009,Thyroid Cancer,T3,PIK3CA,p.E545K,Missense,Persistent,Synthetic Demonstration Data
+PX-010,Colorectal Cancer,T1,APC,p.Q1367*,Nonsense,Acquired,Synthetic Demonstration Data
+PX-010,Colorectal Cancer,T1,BRAF,p.V600E,Missense,Acquired,Synthetic Demonstration Data
+PX-010,Colorectal Cancer,T2,APC,p.Q1367*,Nonsense,Persistent,Synthetic Demonstration Data
+PX-010,Colorectal Cancer,T2,BRAF,p.V600E,Missense,Persistent,Synthetic Demonstration Data
+PX-010,Colorectal Cancer,T2,SMAD4,Deletion,Deletion,Acquired,Synthetic Demonstration Data
+PX-010,Colorectal Cancer,T3,APC,p.Q1367*,Nonsense,Persistent,Synthetic Demonstration Data
+PX-010,Colorectal Cancer,T3,SMAD4,Deletion,Deletion,Persistent,Synthetic Demonstration Data
